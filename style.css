@@ -59,20 +59,10 @@ h3 {
 .link-a {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    margin-left: 47%;
-    margin-right: 45%;
     padding: 10px 30px;
     border-radius: 10px;
 }
 
-.link-button-01 {
-    text-decoration: none;
-    text-align: center;
-    background-image: linear-gradient(orange, tomato);
-    background-size: 30px;
-    padding: 10px 30px;
-    border-radius: 10px;
-}
 
 .taka {
     text-align: center;
@@ -84,6 +74,10 @@ h3 {
 
 .middle {
     width: 20%;
+}
+
+.plan {
+    text-align: center;
 }
 
 .enim {
