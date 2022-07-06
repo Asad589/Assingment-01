@@ -9,14 +9,18 @@ h1 {
     font-size: 80px;
 }
 
-.images-f {
+h3 {
+    font-weight: 400;
+    color: white;
+}
+
+.section-a {
     background-image: url(images/donation4.jpg);
     height: 1000px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-attachment: local;
 }
 
 .text-color-position {
@@ -28,12 +32,10 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-.fifth-width {
-    width: 10%;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-left: 0%;
-    margin-right: 0%;
+.flexible-container {
+    display: flex;
+    text-align: center;
+
 }
 
 .Donate {
@@ -43,10 +45,7 @@ h1 {
     left: 50%;
 }
 
-.flexible-container {
-    display: flex;
-    text-align: center;
-}
+
 
 .link-button {
     text-decoration: none;
@@ -55,6 +54,36 @@ h1 {
     border-radius: 10px;
     color: black;
     font-weight: 600;
+}
+
+.link-a {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    margin-left: 47%;
+    margin-right: 45%;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.link-button-01 {
+    text-decoration: none;
+    text-align: center;
+    background-image: linear-gradient(orange, tomato);
+    background-size: 30px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.taka {
+    text-align: center;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.middle {
+    width: 20%;
 }
 
 .enim {
@@ -69,10 +98,6 @@ footer {
     left: 50%;
 }
 
-h3 {
-    font-weight: 400;
-    color: white;
-}
 
 #victims {
     font-size: 30px;
