@@ -6,12 +6,11 @@ body {
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 80px;
 }
 
 .images-f {
     background-image: url(images/donation4.jpg);
-    background-color: #cccccc;
     height: 1000px;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,8 +24,28 @@ h1 {
     position: absolute;
     top: 50%;
     left: 50%;
-    color: rgb(240, 229, 170);
+    color: white;
     transform: translate(-50%, -50%);
+}
+
+.fifth-width {
+    width: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.Donate {
+    text-align: center;
+    position: 30% 30%;
+    top: 50%;
+    left: 50%;
+}
+
+.flexible-container {
+    display: flex;
+    text-align: center;
 }
 
 .link-button {
@@ -36,4 +55,27 @@ h1 {
     border-radius: 10px;
     color: black;
     font-weight: 600;
+}
+
+.enim {
+    font-size: 30px;
+}
+
+footer {
+    background-color: black;
+    height: 200px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+}
+
+h3 {
+    font-weight: 400;
+    color: white;
+}
+
+#victims {
+    font-size: 30px;
+    color: orangered;
+
 }
