@@ -76,6 +76,19 @@ h3 {
     width: 20%;
 }
 
+.flex-a {
+    display: flex;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.bacground-a {
+    background-color: lightgrey;
+    margin-left: 10px;
+    border: lightgrey 5px;
+    text-align: left;
+}
+
 .plan {
     text-align: center;
 }
