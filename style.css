@@ -1,0 +1,13 @@
+font-family: 'Abril Fatface',
+cursive;
+font-family: 'Anton',
+sans-serif;
+
+.container {
+    background-color: magenta;
+}
+
+.banner {
+    display: flex;
+    color: red;
+}
